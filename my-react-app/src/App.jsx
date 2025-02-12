@@ -3,13 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import MainScreen from './Components/MainTab/MainScreen'
+import SignIn from './Components/IntroTab/SignIn'
+import SignUp from './Components/IntroTab/SignUp'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <MainScreen />
+     <SignUp />
     </div>
   )
 }
